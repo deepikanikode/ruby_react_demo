@@ -1,0 +1,35 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+.d-table {
+  border-collapse: collapse;
+  width: 100%;
+  table-layout: fixed;
+}
+
+td,
+th {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+}
+
+tr:nth-child(even) {
+  background-color: #dddddd;
+}
+
+img {
+  float: right;
+  margin: 2px 5px 0 0;
+  height: 10px;
+}
+
+.table-header > .upDown-arrow, .table-header > .sortable {
+  display: none;
+}
+
+.table-header:hover > .upDown-arrow {
+  display: inline;
+}
